@@ -1,0 +1,10 @@
+packages:
+  FloatingPanel:
+    url: https://github.com/scenee/FloatingPanel
+    version: 1.7.4
+  GoogleSignIn:
+    url: https://github.com/google/GoogleSignIn-iOS
+    version: 6.2.4
+  OHHTTPStubs:
+    url: https://github.com/AliSoftware/OHHTTPStubs
+    from: 9.0.0
