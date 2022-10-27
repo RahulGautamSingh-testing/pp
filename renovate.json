@@ -1,0 +1,22 @@
+{ 
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [  
+    {
+      "matchPackageNames": [
+        "scenee/FloatingPanel"
+      ],
+      "enabled": false
+    }
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": [
+        "^project.yml$"
+      ],
+      "matchStrings": [
+        "url: https:\\/\\/github\\.com\\/(?<depName>.*?)(\\.git)?\\s*version: (?<currentValue>.*)\\s"
+      ],
+      "datasourceTemplate": "github-releases"
+    }
+  ]
+}
