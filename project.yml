@@ -4,7 +4,7 @@ packages:
     version: 1.6.4
   GoogleSignIn:
     url: https://github.com/google/GoogleSignIn-iOS
-    version: 6.1.4
+    version: 6.2.4
   OHHTTPStubs:
     url: https://github.com/AliSoftware/OHHTTPStubs
     from: 8.0.0
